@@ -1,0 +1,23 @@
+Problem statement
+Minefield detection during the war is challenging with many uncertainties as detection is still
+an evolving field. During the war, the commander must undertake a challenge to reach a
+destination by avoiding detection and avoiding minefields using an optimal path. The
+challenge is probabilistic and non-deterministic; complete knowledge is unavailable for the
+minefield position. This changes drastically when technology is used to find mines. As part of
+Make in India, a company has designed a low-budget Drone that uses customized acoustic
+algorithms to detect mine cases and special chemical sensors to detect vapor leaks from
+mines. However, the accuracy of the system is always at most 80%. The terrain to be
+traversed can consist of open terrains, which the enemy can monitor, and large shrubs, which
+can reduce the chances of detection.
+You are approached to build an AI-based decision support system that can take the inputs
+from the satellite (land terrain – the probability of detection (PoD), drone ( probability of
+mine (PoM) ), and from the commander to understand the level of risk he is willing to
+undertake to reach the destination at the earliest. However, avoiding the minefield has the
+highest priority, as the commander cannot risk his team by acting rashly.
+Prove that your technique is correct for the case given as a maze problem when the fitness
+f(n) of a given coordinate cell is given by:
+Minimize(f(n))=[(1+PoD)(1+PoM)]
+Apply the Random Restart Hill Climbing algorithm & Suggest the best solution obtained and
+optimal cost so the commander can decide the best course of action. Interpret the observation
+eg., on how many no.of.random restarts were used in your algorithm to get the global
+optimum.  
